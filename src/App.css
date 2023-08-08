@@ -1,8 +1,11 @@
 .App {
-  text-align: center;
+  background-color: rgb(61, 60, 60) !important;
+ text-align: center;
+  min-height: 100vh;
+  width: 100%;  
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +38,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+input{
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: rgb(20, 20, 20);
+  color: #fff;
+  padding: 2px;
+  border: none;
+  margin: 20px; 
+  font-family: sans-serif;
+  height: 2.5rem;
+  width: 20rem;
+  transition: background-color 0.3s ease;
+  -webkit-box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+  box-shadow: 9px 21px 30px -19px rgba(0, 0, 0, 0.63);
+}
+.task-button{
+  padding:.4em ;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: serif;
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.down{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.delete-button{
+  background-color: rgb(20, 20, 20);
+  color: #ffffff;
+  padding: 8px;
+  margin: 10px;
 }
